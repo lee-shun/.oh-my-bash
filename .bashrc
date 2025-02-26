@@ -22,7 +22,7 @@ OSH_THEME="font"
 # OMB_HYPHEN_SENSITIVE="false"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_OSH_DAYS=13
@@ -110,8 +110,8 @@ plugins=(
 source "$OSH"/oh-my-bash.sh
 
 # ros2
-source /opt/ros/humble/setup.bash
-source /home/ls/fpv_ws/install/setup.bash
+# source /opt/ros/humble/setup.bash
+# source /home/ls/fpv_ws/install/setup.bash
 
 # nvim
 export PATH="$PATH:/usr/local/bin/nvim_0_10_4/bin"
